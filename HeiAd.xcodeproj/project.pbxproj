@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B202D4C271EC97200163089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D4B271EC97200163089 /* AppDelegate.swift */; };
+		1B202D4E271EC97200163089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D4D271EC97200163089 /* SceneDelegate.swift */; };
+		1B202D50271EC97200163089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D4F271EC97200163089 /* ViewController.swift */; };
+		1B202D53271EC97200163089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B202D51271EC97200163089 /* Main.storyboard */; };
+		1B202D56271EC97200163089 /* HeiAd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D54271EC97200163089 /* HeiAd.xcdatamodeld */; };
+		1B202D58271EC97400163089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B202D57271EC97400163089 /* Assets.xcassets */; };
+		1B202D5B271EC97400163089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B202D59271EC97400163089 /* LaunchScreen.storyboard */; };
+		1B202D66271EC97400163089 /* HeiAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D65271EC97400163089 /* HeiAdTests.swift */; };
+		1B202D70271EC97400163089 /* HeiAdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D6F271EC97400163089 /* HeiAdUITests.swift */; };
+		1B202D72271EC97400163089 /* HeiAdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D71271EC97400163089 /* HeiAdUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B202D62271EC97400163089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B202D40271EC97200163089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B202D47271EC97200163089;
+			remoteInfo = HeiAd;
+		};
+		1B202D6C271EC97400163089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B202D40271EC97200163089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B202D47271EC97200163089;
+			remoteInfo = HeiAd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B202D48271EC97200163089 /* HeiAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeiAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B202D4B271EC97200163089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B202D4D271EC97200163089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B202D4F271EC97200163089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B202D52271EC97200163089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B202D55271EC97200163089 /* HeiAd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeiAd.xcdatamodel; sourceTree = "<group>"; };
+		1B202D57271EC97400163089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B202D5A271EC97400163089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B202D5C271EC97400163089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B202D61271EC97400163089 /* HeiAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeiAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B202D65271EC97400163089 /* HeiAdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeiAdTests.swift; sourceTree = "<group>"; };
+		1B202D6B271EC97400163089 /* HeiAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeiAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B202D6F271EC97400163089 /* HeiAdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeiAdUITests.swift; sourceTree = "<group>"; };
+		1B202D71271EC97400163089 /* HeiAdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeiAdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B202D45271EC97200163089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B202D5E271EC97400163089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B202D68271EC97400163089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B202D3F271EC97200163089 = {
+			isa = PBXGroup;
+			children = (
+				1B202D4A271EC97200163089 /* HeiAd */,
+				1B202D64271EC97400163089 /* HeiAdTests */,
+				1B202D6E271EC97400163089 /* HeiAdUITests */,
+				1B202D49271EC97200163089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B202D49271EC97200163089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B202D48271EC97200163089 /* HeiAd.app */,
+				1B202D61271EC97400163089 /* HeiAdTests.xctest */,
+				1B202D6B271EC97400163089 /* HeiAdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B202D4A271EC97200163089 /* HeiAd */ = {
+			isa = PBXGroup;
+			children = (
+				1B202D4B271EC97200163089 /* AppDelegate.swift */,
+				1B202D4D271EC97200163089 /* SceneDelegate.swift */,
+				1B202D4F271EC97200163089 /* ViewController.swift */,
+				1B202D51271EC97200163089 /* Main.storyboard */,
+				1B202D57271EC97400163089 /* Assets.xcassets */,
+				1B202D59271EC97400163089 /* LaunchScreen.storyboard */,
+				1B202D5C271EC97400163089 /* Info.plist */,
+				1B202D54271EC97200163089 /* HeiAd.xcdatamodeld */,
+			);
+			path = HeiAd;
+			sourceTree = "<group>";
+		};
+		1B202D64271EC97400163089 /* HeiAdTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B202D65271EC97400163089 /* HeiAdTests.swift */,
+			);
+			path = HeiAdTests;
+			sourceTree = "<group>";
+		};
+		1B202D6E271EC97400163089 /* HeiAdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B202D6F271EC97400163089 /* HeiAdUITests.swift */,
+				1B202D71271EC97400163089 /* HeiAdUITestsLaunchTests.swift */,
+			);
+			path = HeiAdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B202D47271EC97200163089 /* HeiAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B202D75271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAd" */;
+			buildPhases = (
+				1B202D44271EC97200163089 /* Sources */,
+				1B202D45271EC97200163089 /* Frameworks */,
+				1B202D46271EC97200163089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeiAd;
+			productName = HeiAd;
+			productReference = 1B202D48271EC97200163089 /* HeiAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B202D60271EC97400163089 /* HeiAdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B202D78271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAdTests" */;
+			buildPhases = (
+				1B202D5D271EC97400163089 /* Sources */,
+				1B202D5E271EC97400163089 /* Frameworks */,
+				1B202D5F271EC97400163089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B202D63271EC97400163089 /* PBXTargetDependency */,
+			);
+			name = HeiAdTests;
+			productName = HeiAdTests;
+			productReference = 1B202D61271EC97400163089 /* HeiAdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B202D6A271EC97400163089 /* HeiAdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B202D7B271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAdUITests" */;
+			buildPhases = (
+				1B202D67271EC97400163089 /* Sources */,
+				1B202D68271EC97400163089 /* Frameworks */,
+				1B202D69271EC97400163089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B202D6D271EC97400163089 /* PBXTargetDependency */,
+			);
+			name = HeiAdUITests;
+			productName = HeiAdUITests;
+			productReference = 1B202D6B271EC97400163089 /* HeiAdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B202D40271EC97200163089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1B202D47271EC97200163089 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1B202D60271EC97400163089 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1B202D47271EC97200163089;
+					};
+					1B202D6A271EC97400163089 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1B202D47271EC97200163089;
+					};
+				};
+			};
+			buildConfigurationList = 1B202D43271EC97200163089 /* Build configuration list for PBXProject "HeiAd" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B202D3F271EC97200163089;
+			productRefGroup = 1B202D49271EC97200163089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B202D47271EC97200163089 /* HeiAd */,
+				1B202D60271EC97400163089 /* HeiAdTests */,
+				1B202D6A271EC97400163089 /* HeiAdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B202D46271EC97200163089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B202D5B271EC97400163089 /* LaunchScreen.storyboard in Resources */,
+				1B202D58271EC97400163089 /* Assets.xcassets in Resources */,
+				1B202D53271EC97200163089 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B202D5F271EC97400163089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B202D69271EC97400163089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B202D44271EC97200163089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B202D50271EC97200163089 /* ViewController.swift in Sources */,
+				1B202D56271EC97200163089 /* HeiAd.xcdatamodeld in Sources */,
+				1B202D4C271EC97200163089 /* AppDelegate.swift in Sources */,
+				1B202D4E271EC97200163089 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B202D5D271EC97400163089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B202D66271EC97400163089 /* HeiAdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B202D67271EC97400163089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B202D72271EC97400163089 /* HeiAdUITestsLaunchTests.swift in Sources */,
+				1B202D70271EC97400163089 /* HeiAdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B202D63271EC97400163089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B202D47271EC97200163089 /* HeiAd */;
+			targetProxy = 1B202D62271EC97400163089 /* PBXContainerItemProxy */;
+		};
+		1B202D6D271EC97400163089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B202D47271EC97200163089 /* HeiAd */;
+			targetProxy = 1B202D6C271EC97400163089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B202D51271EC97200163089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B202D52271EC97200163089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B202D59271EC97400163089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B202D5A271EC97400163089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B202D73271EC97400163089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B202D74271EC97400163089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B202D76271EC97400163089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q6JH7ML5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeiAd/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.finn.mtc.demoapp.HeiAd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B202D77271EC97400163089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q6JH7ML5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeiAd/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.finn.mtc.demoapp.HeiAd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B202D79271EC97400163089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q6JH7ML5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.finn.mtc.demoapp.HeiAdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeiAd.app/HeiAd";
+			};
+			name = Debug;
+		};
+		1B202D7A271EC97400163089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q6JH7ML5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.finn.mtc.demoapp.HeiAdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeiAd.app/HeiAd";
+			};
+			name = Release;
+		};
+		1B202D7C271EC97400163089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q6JH7ML5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.finn.mtc.demoapp.HeiAdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeiAd;
+			};
+			name = Debug;
+		};
+		1B202D7D271EC97400163089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q6JH7ML5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.finn.mtc.demoapp.HeiAdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeiAd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B202D43271EC97200163089 /* Build configuration list for PBXProject "HeiAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B202D73271EC97400163089 /* Debug */,
+				1B202D74271EC97400163089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B202D75271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B202D76271EC97400163089 /* Debug */,
+				1B202D77271EC97400163089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B202D78271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B202D79271EC97400163089 /* Debug */,
+				1B202D7A271EC97400163089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B202D7B271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B202D7C271EC97400163089 /* Debug */,
+				1B202D7D271EC97400163089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B202D54271EC97200163089 /* HeiAd.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B202D55271EC97200163089 /* HeiAd.xcdatamodel */,
+			);
+			currentVersion = 1B202D55271EC97200163089 /* HeiAd.xcdatamodel */;
+			path = HeiAd.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B202D40271EC97200163089 /* Project object */;
+}
