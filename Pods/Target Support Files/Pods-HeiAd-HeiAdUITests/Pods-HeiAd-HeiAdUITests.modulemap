@@ -1,0 +1,6 @@
+framework module Pods_HeiAd_HeiAdUITests {
+  umbrella header "Pods-HeiAd-HeiAdUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

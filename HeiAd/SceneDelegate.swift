@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  HeiAd
 //
-//  Created by Reinhard D on 19.10.21.
+//  Created by Reinhard D on 20.10.21.
 //
 
 import UIKit

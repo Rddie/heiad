@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B202D4C271EC97200163089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D4B271EC97200163089 /* AppDelegate.swift */; };
 		1B202D4E271EC97200163089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D4D271EC97200163089 /* SceneDelegate.swift */; };
-		1B202D50271EC97200163089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D4F271EC97200163089 /* ViewController.swift */; };
+		1B202D50271EC97200163089 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D4F271EC97200163089 /* StartViewController.swift */; };
 		1B202D53271EC97200163089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B202D51271EC97200163089 /* Main.storyboard */; };
 		1B202D56271EC97200163089 /* HeiAd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D54271EC97200163089 /* HeiAd.xcdatamodeld */; };
 		1B202D58271EC97400163089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B202D57271EC97400163089 /* Assets.xcassets */; };
@@ -17,6 +17,16 @@
 		1B202D66271EC97400163089 /* HeiAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D65271EC97400163089 /* HeiAdTests.swift */; };
 		1B202D70271EC97400163089 /* HeiAdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D6F271EC97400163089 /* HeiAdUITests.swift */; };
 		1B202D72271EC97400163089 /* HeiAdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D71271EC97400163089 /* HeiAdUITestsLaunchTests.swift */; };
+		1B202D82271ED2A500163089 /* AdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D81271ED2A500163089 /* AdsTableViewController.swift */; };
+		1B202D84271ED37400163089 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D83271ED37400163089 /* Globals.swift */; };
+		1B202D86271ED85C00163089 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D85271ED85C00163089 /* CoreDataManager.swift */; };
+		1B202D8A271EF26900163089 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D89271EF26900163089 /* Reachability.swift */; };
+		1B202D8C271EFE7F00163089 /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D8B271EFE7F00163089 /* AdCell.swift */; };
+		1B202D8F271F102E00163089 /* HeiAdApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D8D271F102E00163089 /* HeiAdApi.swift */; };
+		1B202D90271F102E00163089 /* AdDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B202D8E271F102E00163089 /* AdDataRequest.swift */; };
+		21BD8C8DBE9A541BBD8EF9CA /* Pods_HeiAd_HeiAdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BA43B6AF41697A48E94877 /* Pods_HeiAd_HeiAdUITests.framework */; };
+		7DE3DF0208A56D1AE5985F12 /* Pods_HeiAdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A538862A0218BB3A224E2B /* Pods_HeiAdTests.framework */; };
+		F0647BE559D5B4409FAF7DF6 /* Pods_HeiAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB1B11416F5BCE7C892E14A /* Pods_HeiAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB1B11416F5BCE7C892E14A /* Pods_HeiAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeiAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B202D48271EC97200163089 /* HeiAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeiAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B202D4B271EC97200163089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B202D4D271EC97200163089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B202D4F271EC97200163089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B202D4F271EC97200163089 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		1B202D52271EC97200163089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B202D55271EC97200163089 /* HeiAd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeiAd.xcdatamodel; sourceTree = "<group>"; };
 		1B202D57271EC97400163089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +62,21 @@
 		1B202D6B271EC97400163089 /* HeiAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeiAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B202D6F271EC97400163089 /* HeiAdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeiAdUITests.swift; sourceTree = "<group>"; };
 		1B202D71271EC97400163089 /* HeiAdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeiAdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B202D81271ED2A500163089 /* AdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsTableViewController.swift; sourceTree = "<group>"; };
+		1B202D83271ED37400163089 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		1B202D85271ED85C00163089 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1B202D89271EF26900163089 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1B202D8B271EFE7F00163089 /* AdCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
+		1B202D8D271F102E00163089 /* HeiAdApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeiAdApi.swift; sourceTree = "<group>"; };
+		1B202D8E271F102E00163089 /* AdDataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDataRequest.swift; sourceTree = "<group>"; };
+		20F9909A88AF50530070617F /* Pods-HeiAd-HeiAdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeiAd-HeiAdUITests.release.xcconfig"; path = "Target Support Files/Pods-HeiAd-HeiAdUITests/Pods-HeiAd-HeiAdUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25A538862A0218BB3A224E2B /* Pods_HeiAdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeiAdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BA43B6AF41697A48E94877 /* Pods_HeiAd_HeiAdUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeiAd_HeiAdUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEBB2069906D55EEE9AC7FB /* Pods-HeiAd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeiAd.release.xcconfig"; path = "Target Support Files/Pods-HeiAd/Pods-HeiAd.release.xcconfig"; sourceTree = "<group>"; };
+		393825645E4BB14013AD4589 /* Pods-HeiAdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeiAdTests.release.xcconfig"; path = "Target Support Files/Pods-HeiAdTests/Pods-HeiAdTests.release.xcconfig"; sourceTree = "<group>"; };
+		67C10634F271E5E1F38D8BCC /* Pods-HeiAd-HeiAdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeiAd-HeiAdUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeiAd-HeiAdUITests/Pods-HeiAd-HeiAdUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72E5E2A85D2C2393E51611D3 /* Pods-HeiAdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeiAdTests.debug.xcconfig"; path = "Target Support Files/Pods-HeiAdTests/Pods-HeiAdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB754A7FF9F7348D362C95C4 /* Pods-HeiAd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeiAd.debug.xcconfig"; path = "Target Support Files/Pods-HeiAd/Pods-HeiAd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0647BE559D5B4409FAF7DF6 /* Pods_HeiAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE3DF0208A56D1AE5985F12 /* Pods_HeiAdTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BD8C8DBE9A541BBD8EF9CA /* Pods_HeiAd_HeiAdUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,8 @@
 				1B202D64271EC97400163089 /* HeiAdTests */,
 				1B202D6E271EC97400163089 /* HeiAdUITests */,
 				1B202D49271EC97200163089 /* Products */,
+				310D38CEBB130E2362BADB25 /* Pods */,
+				2E0B6D113BB77E1CAA2E0C55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +132,14 @@
 		1B202D4A271EC97200163089 /* HeiAd */ = {
 			isa = PBXGroup;
 			children = (
+				1B202D80271ED19200163089 /* utils */,
+				1B202D7F271ED14300163089 /* api */,
+				1B202D7E271ED11E00163089 /* ui */,
 				1B202D4B271EC97200163089 /* AppDelegate.swift */,
 				1B202D4D271EC97200163089 /* SceneDelegate.swift */,
-				1B202D4F271EC97200163089 /* ViewController.swift */,
+				1B202D59271EC97400163089 /* LaunchScreen.storyboard */,
 				1B202D51271EC97200163089 /* Main.storyboard */,
 				1B202D57271EC97400163089 /* Assets.xcassets */,
-				1B202D59271EC97400163089 /* LaunchScreen.storyboard */,
 				1B202D5C271EC97400163089 /* Info.plist */,
 				1B202D54271EC97200163089 /* HeiAd.xcdatamodeld */,
 			);
@@ -130,6 +163,58 @@
 			path = HeiAdUITests;
 			sourceTree = "<group>";
 		};
+		1B202D7E271ED11E00163089 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				1B202D8B271EFE7F00163089 /* AdCell.swift */,
+				1B202D4F271EC97200163089 /* StartViewController.swift */,
+				1B202D81271ED2A500163089 /* AdsTableViewController.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		1B202D7F271ED14300163089 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				1B202D83271ED37400163089 /* Globals.swift */,
+				1B202D8E271F102E00163089 /* AdDataRequest.swift */,
+				1B202D8D271F102E00163089 /* HeiAdApi.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		1B202D80271ED19200163089 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B202D89271EF26900163089 /* Reachability.swift */,
+				1B202D85271ED85C00163089 /* CoreDataManager.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		2E0B6D113BB77E1CAA2E0C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB1B11416F5BCE7C892E14A /* Pods_HeiAd.framework */,
+				27BA43B6AF41697A48E94877 /* Pods_HeiAd_HeiAdUITests.framework */,
+				25A538862A0218BB3A224E2B /* Pods_HeiAdTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		310D38CEBB130E2362BADB25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB754A7FF9F7348D362C95C4 /* Pods-HeiAd.debug.xcconfig */,
+				2CEBB2069906D55EEE9AC7FB /* Pods-HeiAd.release.xcconfig */,
+				67C10634F271E5E1F38D8BCC /* Pods-HeiAd-HeiAdUITests.debug.xcconfig */,
+				20F9909A88AF50530070617F /* Pods-HeiAd-HeiAdUITests.release.xcconfig */,
+				72E5E2A85D2C2393E51611D3 /* Pods-HeiAdTests.debug.xcconfig */,
+				393825645E4BB14013AD4589 /* Pods-HeiAdTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B202D75271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAd" */;
 			buildPhases = (
+				B57318C16AD598859B97FCF5 /* [CP] Check Pods Manifest.lock */,
 				1B202D44271EC97200163089 /* Sources */,
 				1B202D45271EC97200163089 /* Frameworks */,
 				1B202D46271EC97200163089 /* Resources */,
+				BBF37373114F025AFAD2B925 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B202D78271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAdTests" */;
 			buildPhases = (
+				8785FC6B79D87FD7B12D5D36 /* [CP] Check Pods Manifest.lock */,
 				1B202D5D271EC97400163089 /* Sources */,
 				1B202D5E271EC97400163089 /* Frameworks */,
 				1B202D5F271EC97400163089 /* Resources */,
@@ -172,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B202D7B271EC97400163089 /* Build configuration list for PBXNativeTarget "HeiAdUITests" */;
 			buildPhases = (
+				22D99DB073492157E0C292DF /* [CP] Check Pods Manifest.lock */,
 				1B202D67271EC97400163089 /* Sources */,
 				1B202D68271EC97400163089 /* Frameworks */,
 				1B202D69271EC97400163089 /* Resources */,
+				CDD45E3FA34AA8427BFE1819 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,14 +346,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22D99DB073492157E0C292DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeiAd-HeiAdUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8785FC6B79D87FD7B12D5D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeiAdTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57318C16AD598859B97FCF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeiAd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF37373114F025AFAD2B925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeiAd/Pods-HeiAd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeiAd/Pods-HeiAd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeiAd/Pods-HeiAd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD45E3FA34AA8427BFE1819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeiAd-HeiAdUITests/Pods-HeiAd-HeiAdUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeiAd-HeiAdUITests/Pods-HeiAd-HeiAdUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeiAd-HeiAdUITests/Pods-HeiAd-HeiAdUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B202D44271EC97200163089 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B202D50271EC97200163089 /* ViewController.swift in Sources */,
+				1B202D50271EC97200163089 /* StartViewController.swift in Sources */,
+				1B202D90271F102E00163089 /* AdDataRequest.swift in Sources */,
 				1B202D56271EC97200163089 /* HeiAd.xcdatamodeld in Sources */,
+				1B202D84271ED37400163089 /* Globals.swift in Sources */,
+				1B202D8C271EFE7F00163089 /* AdCell.swift in Sources */,
+				1B202D8F271F102E00163089 /* HeiAdApi.swift in Sources */,
 				1B202D4C271EC97200163089 /* AppDelegate.swift in Sources */,
+				1B202D8A271EF26900163089 /* Reachability.swift in Sources */,
+				1B202D82271ED2A500163089 /* AdsTableViewController.swift in Sources */,
+				1B202D86271ED85C00163089 /* CoreDataManager.swift in Sources */,
 				1B202D4E271EC97200163089 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +638,7 @@
 		};
 		1B202D76271EC97400163089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB754A7FF9F7348D362C95C4 /* Pods-HeiAd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,12 +661,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1B202D77271EC97400163089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEBB2069906D55EEE9AC7FB /* Pods-HeiAd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,12 +690,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1B202D79271EC97400163089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E5E2A85D2C2393E51611D3 /* Pods-HeiAdTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +722,7 @@
 		};
 		1B202D7A271EC97400163089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393825645E4BB14013AD4589 /* Pods-HeiAdTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +748,7 @@
 		};
 		1B202D7C271EC97400163089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C10634F271E5E1F38D8BCC /* Pods-HeiAd-HeiAdUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +772,7 @@
 		};
 		1B202D7D271EC97400163089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F9909A88AF50530070617F /* Pods-HeiAd-HeiAdUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
