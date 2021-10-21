@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 class AdDataRequest: HeiAdApi {
     
     func getAdData(completion: @escaping (_ list: [AdDTO]?, _ error: String?) -> Void) {
@@ -21,6 +20,7 @@ class AdDataRequest: HeiAdApi {
             
             if let data = data, let adsDto = try? JSONDecoder().decode(AdDataDTO.self, from: data) {
                 dto = adsDto.items
+                info = error ?? "SUCCESS"
             } else {
                 info = error ?? "Parsing error"
             }
