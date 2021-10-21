@@ -21,6 +21,7 @@ class AdsTableViewController: UITableViewController {
     
     let tableIcon = UIImage(systemName: "list.dash")
     
+    let pullToRefrehControl = UIRefreshControl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,9 @@ class AdsTableViewController: UITableViewController {
         self.title = "HEI FINN"
         
         self.adObjects = CoreDataManager.shared.fetchAds(onlyFaves: false)!
+        
+        pullToRefrehControl.addTarget(self, action: #selector(refreshData(_:)), for: .valueChanged)
+        self.tableView.addSubview(pullToRefrehControl)
         
     }
     
@@ -134,6 +138,30 @@ class AdsTableViewController: UITableViewController {
         
         self.adObjects = CoreDataManager.shared.fetchAds(onlyFaves: showsFavorite)!
         self.tableView.reloadData()
+    }
+    
+    
+    @objc private func refreshData(_ sender: Any) {
+            self.pullToRefrehControl.endRefreshing()
+         
+        if Reachability.isConnectedToNetwork(){
+            
+            AdDataRequest().execute(completion: { message in
+                
+                if message == "SUCCESS" {
+                     
+                    DispatchQueue.main.async {
+                    
+                      self.adObjects = CoreDataManager.shared.fetchAds(onlyFaves: self.showsFavorite)!
+                      self.tableView.reloadData()
+                   
+                    }
+                }
+            })
+        }
+        
+        
+        self.pullToRefrehControl.endRefreshing()
     }
     
 }
